@@ -79,7 +79,6 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-st.subheader('Prediction Result')
 if prediction[0] == 0:
     st.write(' # You do not have heart disease')
 else:
