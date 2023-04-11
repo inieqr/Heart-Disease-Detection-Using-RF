@@ -79,7 +79,7 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-if prediction='0'
+if prediction == '0':
     st.write('You do not have heart disease')
-else
+else:
     st.write('You have heart disease')
